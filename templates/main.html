@@ -5,8 +5,8 @@
 {% block content %}
     <ol>
     {% for row in Races %}
-        <li>{{ row['race'] }}</li>
-        <li>{{ row['description'] }}</li>
+        <li><b>{{ row['race'] }}:</b> {{ row['description'] }}</li>
+        <br/>
     {% endfor %}
     </ol>
 {% endblock %}
